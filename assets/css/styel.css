@@ -1,0 +1,476 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+.header {
+	background-image: url('../img/bgc.png');
+	width: 100%;
+	height: 900px;
+	background-position: center center;
+	background-size: cover;
+}
+.container {
+	width: 100%;
+	margin: auto;
+}
+.header:after {
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+.logo {
+	float: left;
+	width: 20%;
+}
+.logo img {
+	margin-top: 40px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.li {
+	float: left;
+	width: 55%;
+}
+.li ul li {
+	display: inline-block;
+	margin-top: 45px;
+}
+.li ul li a {
+	color: #fff;
+	padding: 0 20px;
+}
+.li ul li:hover a {
+	color: #ff0000;
+}
+.ib {
+	float: left;
+	width: 25%;
+}
+.ib button {
+	margin-left: 60px;
+	padding: 40px 40px;
+	background-color: red;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	transform: translate(73px,-38px);
+}
+.ib button:hover {
+	background-color: #f46464;
+}
+.ib i {
+	transform: translate(0px,35px);
+	padding: 10px;
+	color: #ccc;
+	cursor: pointer;
+}
+.ib i:hover {
+	color: #ff0000;
+}
+.h {
+	float: left;
+	width: 45%
+}
+.h h1 {
+	font-size: 100px;
+	color: #fff;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+.h p {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 80px;
+	margin-left: 100px;
+}
+.h button {
+	padding: 20px 50px;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	margin-left: 100px;
+}
+.h button:hover {
+	background-color: #f63636;
+	border: none;
+}
+.img {
+	float: left;
+	width: 55%;
+}
+.img img {
+	width: 650px;
+	margin-left: 50px;
+}
+/*header End*/
+/*banner start*/
+.con {
+	width: 100%;
+	margin: auto;
+}
+.banner:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.img1 {
+	float: left;
+	width: 60%;
+}
+.h2 {
+	float: left;
+	width: 40%;
+}
+.h2 h4 {
+	color: #f63636;
+	font-size: 16px;
+	margin-top:80px;
+	margin-bottom: 50px;
+}
+.h2 h1 {
+	font-size: 44px;
+	margin-bottom: 50px;
+}
+.h2 p {
+	color: #7a7a7a;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+/*banner End*/
+
+
+.pizza {
+	text-align: right;
+	margin-top: 30px;
+}
+.cen img {
+	margin: 0px auto;
+	margin-left: 650px;
+}
+.cen h2 {
+	font-size: 44px;
+	color: #030315;
+	text-align: center;
+	margin-top: 30px;
+}
+/*pizza End*/
+/*teem Start*/
+.cntr {
+	width: 100%;
+	margin: auto;
+}
+.teem-member {
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.teem-member:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.teem1 {
+	float: left;
+	width: 20%;
+}
+.teem1 img {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+}
+.tex1 {
+	float: left;
+	width: 25%;
+}
+.tex1 h2 {
+	margin-top: 10px;
+}
+.tex1 p {
+	margin-top: 40px;
+	color: #a9a9a9;
+}
+.tex1 h3 {
+	margin-top: 50px;
+}
+.teem2 {
+	float: left;
+	width: 20%;
+}
+.teem2 img {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+}
+.tex2 {
+	float: left;
+	width: 25%;
+}
+.tex2 h2 {
+	margin-top: 10px;
+}
+.tex2 p {
+	margin-top: 40px;
+	color: #a9a9a9;
+}
+.tex2 h3 {
+	margin-top: 50px;
+}
+.teem-member2 {
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.teem3 {
+	float: left;
+	width: 20%;
+}
+.teem3 img {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+}
+.tex3 {
+	float: left;
+	width: 25%;
+}
+.tex3 h2 {
+	margin-top: 10px;
+}
+.tex3 p {
+	margin-top: 40px;
+	color: #a9a9a9;
+}
+.tex3 h3 {
+	margin-top: 50px;
+}
+.teem4 {
+	float: left;
+	width: 20%;
+}
+.teem4 {
+	float: left;
+	width: 20%;
+}
+.teem4 img {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+}
+.tex4 {
+	float: left;
+	width: 35%;
+}
+.tex4 h2 {
+	margin-top: 10px;
+}
+.tex4 p {
+	margin-top: 40px;
+	color: #a9a9a9;
+}
+.tex4 h3 {
+	margin-top: 50px;
+}
+/*teem End*/
+iframe {
+	margin-top: 200px;
+}
+/*iframe*/
+.h3 p {
+	font-size: 16px;
+	color: #f63636;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	margin-top: 150px;
+}
+.h3 h1 {
+	margin-top: 30px;
+	font-size: 44px;
+	text-align: center;
+}
+/*teem2 start*/
+.tem-mem {
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-bottom: 100px;
+}
+.te:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.co {
+	margin: auto;
+	width: 100%;
+}
+.te {
+	float: left;
+	width: 30%;
+}
+.te img {
+	border-radius: 50%;
+}
+.te h1 {
+	font-size: 18px;
+}
+.te p {
+	margin-top: 30px;
+	color: #a9a9a9;
+}
+.te2 {
+	float: left;
+	width: 30%;
+}
+.te2 img {
+	border-radius: 50%;
+}
+.te2 h1 {
+	font-size: 18px;
+}
+.te2 p {
+	margin-top: 30px;
+	color: #a9a9a9;
+}
+.te3 {
+	float: left;
+	width: 30%;
+}
+.te3 img {
+	border-radius: 50%;
+}
+.te3 h1 {
+	font-size: 18px;
+}
+.te3 p {
+	margin-top: 30px;
+	color: #a9a9a9;
+}
+/*teem End*/
+.ber img {
+	margin-left: 200px;
+	margin-top: 150px;
+}
+.ber button {
+	margin: auto;
+	display: block;
+	padding: 25px 50px;
+	font-size: 24px;
+	color: #fff;
+	border-radius: 100px;
+	background-color: #f63636;
+	border: none;
+}
+.ber button:hover {
+	background-color: red;
+}
+.ber p {
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+	margin-bottom: 200px;
+
+}
+/*call End*/
+/*foter Start*/
+.foter {
+	background-image: url('../img/so.png');
+	width: 100%;
+	height: 800px;
+	background-position: center center;
+	background-size: cover;
+}
+.container1 {
+	width: 100%;
+	margin: auto;
+}
+.logo1 {
+	float: left;
+	width: 40%;
+}
+.logo1 img {
+	margin-top: 250px;
+	margin-left: 100px;
+}
+.logo1 p {
+	margin-left: 100px;
+	margin-top: 50px;
+	color: #a9a9a9;
+	font-size: 16px;
+
+}
+.logo1 h6 {
+	margin-left: 100px;
+	margin-top: 10px;
+	color: #a9a9a9;
+	font-size: 16px;
+}
+.logo1 i {
+	transform: translate(70px,0px);
+	margin-top: 50px;
+	color: #a9a9a9;
+	padding: 0px 22px;
+	font-size: 18px;
+}
+.logo1 i:hover {
+	color: #f63636;
+}
+.li1 {
+	float: left;
+	width: 20%;
+}
+.li1 p {
+	margin-top: 250px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+}
+.li1 ul {
+	margin-top: 50px;
+}
+.li1 ul li {
+	margin-top: 20px;
+}
+.li1 ul li a {
+	color: #a9a9a9;
+}
+.li1 ul li:hover a {
+	color: #f63636;
+}
+.in {
+	float: left;
+	width: 40%;
+}
+.in h5 {
+	margin-top: 250px;
+	color: #fff;
+	font-size: 16px;
+}
+.in input {
+	margin-top: 50px;
+	background-color: #1d1d2d;
+	border: none;
+	width: 50%;
+	height: 60px;
+	padding: 0px 20px;
+	font-size: 16px;
+}
+.in i {
+	color: #fff;
+	margin-left: 16px;
+	background-color: #f63636;
+	padding: 21px;
+}
+.in i:hover {
+	border: 1px solid lime;
+}
+.in p {
+	margin-top: 50px;
+	color: #a9a9a9;
+}
